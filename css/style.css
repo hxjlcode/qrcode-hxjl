@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    font-family: "Microsoft Yahei", tahoma, verdana, arial, sans-serif, "微软雅黑";
+    font-family: "Microsoft Yahei", tahoma, verdana, arial, sans-serif;
     background: #f0f0f0;
     width: 100%;
     background: #f0f0f0;
@@ -81,6 +81,8 @@ ol {
     vertical-align: middle;
     margin-right: 10px;
     background: url("../img/ionImg_03.png") no-repeat;
+    -webkit-background-size:cover;
+    background-size:cover;
 }
 
 .lists .txtValue {
@@ -91,7 +93,8 @@ ol {
     -webkit-appearance: none;
     background-color: transparent;
     font-size: inherit;
-    color: inherit
+    color: inherit;
+    font-size:14px;
 }
 
 #btn {
